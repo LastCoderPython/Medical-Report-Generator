@@ -14,7 +14,7 @@ export function Header() {
   };
 
   return (
-    <header className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 text-white shadow-lg">
+    <header className="bg-gradient-to-r from-purple-700 to-indigo-800 text-white shadow-lg">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
