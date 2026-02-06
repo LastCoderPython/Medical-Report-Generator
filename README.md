@@ -18,8 +18,6 @@ An AI‑powered clinical documentation tool that helps physicians generate struc
 - Storing reports securely in **Supabase** with Row‑Level Security  
 - Offering a **responsive UI** with light/dark mode and easy logout
 
-All environment secrets are kept in `.env.local` and never exposed in code.
-
 ---
 
 ## ✨ Key Features
@@ -37,10 +35,10 @@ All environment secrets are kept in `.env.local` and never exposed in code.
   Toggle theme via `next-themes` with `ThemeProvider` and `ThemeToggle`.
 
 - **🛡️ Secure Environment**  
-  API keys and Supabase credentials are stored in environment variables, ignored from Git.
+  API keys and Supabase credentials are stored securely
 
 - **📤 GitHub Ready**  
-  `.gitignore` excludes `.env.local` and sensitive files; `.env.example` documents required variables.
+  `.env.example` documents required variables.
 
 ---
 
