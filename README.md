@@ -250,12 +250,11 @@ Vercel will build and deploy automatically. Visit the generated URL (e.g., `http
 
 ### Sensitive Data Protection
 
-- `.env.local` is ignored; `.env.example` is public template
+- `.env.example` is public template
 - Supabase environment variables are never logged
 
 ### Row‑Level Security (RLS)
 
-- Users can only `SELECT`, `INSERT`, or `DELETE` rows where `user_id = auth.uid()`
 - Prevents unauthorized access to other users' reports
 
 ### Authentication
@@ -293,6 +292,10 @@ Navigate to the app → log in via Supabase.
 - Click any report to view details
 - Edit or delete as needed
 
+### Export Reports
+
+- The reports can be exported as: PDF, .docx
+
 ### Toggle Theme / Logout
 
 - Click the ☀️/🌙 button to switch modes
@@ -302,8 +305,8 @@ Navigate to the app → log in via Supabase.
 
 ## 📈 Future Enhancements
 
-- **PDF Export** – Export reports as PDF for EHR integration
-- **Templates** – Pre‑defined templates by specialty (Radiology, Cardiology, etc.)
+- **Security** - Switching it to password-less authentication
+- **Templates** – Increase in Pre‑defined templates by specialty (Radiology, Cardiology, etc.)
 - **Multilingual Support** – Generate reports in regional languages
 - **Voice Input** – Speech‑to‑text for clinical notes
 - **Collaboration** – Share reports with team members with fine‑grained permissions
